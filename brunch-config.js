@@ -12,6 +12,7 @@ exports.files = {
 exports.plugins = {
   babel: {presets: ['latest']},
   afterBrunch: [
-    'cp app/assets/GlugGlug.scr public/'
+    'cp app/assets/GlugGlug.scr public/',
+    'touch public/Staticfile'
   ],
 };

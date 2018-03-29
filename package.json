@@ -7,7 +7,8 @@
   "repository": "",
   "scripts": {
     "start": "brunch watch --server",
-    "build": "brunch build --production"
+    "build": "brunch build --production",
+    "publish": "yarn build && git add public && git commit -a -m 'Build update' && ./publish.sh public"
   },
   "dependencies": {
     "after-brunch": "0.0.5",
