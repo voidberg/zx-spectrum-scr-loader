@@ -1,1 +1,0 @@
-{"version":3,"sources":["app/styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"public/app.css","sourcesContent":["body {\n  text-align: center;\n  background: black;\n}\n\ncanvas {\n  border: 30px solid #333;\n  border-left-width: 60px;\n  border-right-width: 60px;\n  margin: 0 auto;\n}"]}
