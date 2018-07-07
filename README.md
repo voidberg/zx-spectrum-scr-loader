@@ -2,6 +2,8 @@
 
 Loads ZX Spectrum SCR files, simulating the tape loading delay with rxjs. Part of a presentation about reactive programming.
 
+[spectrum.gif]()
+
 ## Getting started
 
 * Install (if you don't have them):
