@@ -8,12 +8,15 @@
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
-    "publish": "yarn build && git add public && git commit -a -m 'Build update' && ./publish.sh public"
+    "publish": "yarn build && git add public && git commit -a -m 'Build update' && ./publish.sh public",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "after-brunch": "0.0.5",
     "lodash": "^4.17.4",
-    "rxjs": "^5.3.0"
+    "rxjs": "^5.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
@@ -22,5 +25,6 @@
     "brunch": "^2",
     "clean-css-brunch": "^2",
     "uglify-js-brunch": "^2"
-  }
+  },
+  "snyk": true
 }
